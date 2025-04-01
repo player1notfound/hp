@@ -1,10 +1,10 @@
 # Part 1. Setup Azure Subscription
 
-Create Free Azure Subscription: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account. After your subscription is created, you can login at: https://portal.azure.com
+Create Free Azure Subscription: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account. After your subscription is created, you can login at: https://portal.azure.com.
 
 
 # Part 2. Create the Honey Pot (Azure Virtual Machine)
-Go to: https://portal.azure.com and search for virtual machines. Create a new Windows 10 virtual machine. Remember the username and password. Go to the Network Security Group for your virtual machine and create a rule that allows all traffic inbound. Log into your virtual machine and turn off the windows firewall (start -> wf.msc -> properties -> all off)
+Go to: https://portal.azure.com and search for virtual machines. Create a new Windows 10 virtual machine. Remember the username and password. Go to the Network Security Group for your virtual machine and create a rule that allows all traffic inbound. Log into your virtual machine and turn off the windows firewall (start -> wf.msc -> properties -> all off).
 
 
 # Part 3. Logging into the VM and inspecting logs
@@ -31,7 +31,7 @@ Number of lines before row: 0
 Search Key: network
 ```
 
-Allow the watchlist to fully import, there should be a total of roughly 54,000 rows. In real life, this location data would come from a live source or it would be updated automatically on the back end by your service provider. Observe the logs now have geographic information, so you can see where the attacks are coming from
+Allow the watchlist to fully import, there should be a total of roughly 54,000 rows. In real life, this location data would come from a live source or it would be updated automatically on the back end by your service provider. Observe the logs now have geographic information, so you can see where the attacks are coming from.
 ```bash 
 let GeoIPDB_FULL = _GetWatchlist("geoip");
 let WindowsEvents = SecurityEvent
