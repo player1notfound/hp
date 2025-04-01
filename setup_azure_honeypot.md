@@ -46,9 +46,9 @@ WindowsEvents
 
 # Part 6. Attack Map Creation
 
-Within Sentine, create a new Workbook. Delete the prepopulated elements and add a “Query” element. We will create the attack map using JSON.   
-Observe the query  
-Observe the map settings  
-Observe the map  
+Within Sentine, create a new Workbook. Delete the prepopulated elements and add a “Query” element. We will create the attack map using JSON.      
+Observe the query.  
+Observe the map settings.  
+Observe the map.  
 
 # Finished!
