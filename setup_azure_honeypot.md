@@ -1,16 +1,11 @@
-Part 1. Setup Azure Subscription
+# Part 1. Setup Azure Subscription
 
-Create Free Azure Subscription: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
-
-If Azure doesn’t let you create a free account, you can either
-Create a paid subscription and be mindful of shutting down/deleting your resources when you are done, or
-
-
+## Create Free Azure Subscription: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
 After your subscription is created, you can login at:
 https://portal.azure.com
 
 
-Part 2. Create the Honey Pot (Azure Virtual Machine)
+#Part 2. Create the Honey Pot (Azure Virtual Machine)
 
 Go to: https://portal.azure.com and search for virtual machines
 
