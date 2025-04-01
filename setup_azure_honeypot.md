@@ -4,7 +4,7 @@ Create Free Azure Subscription: https://azure.microsoft.com/en-us/pricing/purcha
 
 If Azure doesn’t let you create a free account, you can either
 Create a paid subscription and be mindful of shutting down/deleting your resources when you are done, or
-Sign up for the Cyber Range, where you pay a flat fee and get access to Azure, Tenable, Defender for Endpoint, Courses, Labs, Weekly lives, optional Cyber Internship: https://skool.com/cyber-range 
+
 
 After your subscription is created, you can login at:
 https://portal.azure.com
@@ -49,12 +49,7 @@ Create the DCR within sentinel, watch for extension creation
 
 Query for logs within the LAW
 
-
 We can now query the Log analytics workspace as well as the SIEM, sentinel directly, which we will do soon
-
-Note: Querying logs in here is a really important skill that you MUST have if you want to work in security operations. Depending on where you work, you need to know SQL, KQL, or SPL, but these are all basically the same thing. If you know one, you can easily learn the others. Microsoft and Sentinel uses KQL, which you can learn in the Cyber Range https://skool.com/cyber-range, or from here https://kc7cyber.com/ (free)
-
-Tip: The Cyber Range is basically a full production environment with hundreds of users and Virtual Machines in it, which are all producing a ton of logs. It’s a really good place to practice just sifting through logs and seeing what you can see.
 
 Observe some of your VM logs:
 
